@@ -23,8 +23,8 @@ nas horas vagas e adoro conversar sobre todo tipo de arte.
 ## Hobbies & others:
 <ul style="list-style: none">
   <li>🎸 - MÚSICA</li>
-  <li>🎥 - CINEMA</li>
   <li>🏋️ - ACADEMIA</li>
+  <li>🏎️ - F1</li>
   <li>🦅 - WARHAMMER 40K</li>
 </ul>
 
