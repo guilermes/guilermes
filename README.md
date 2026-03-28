@@ -1,7 +1,5 @@
 ## Olá, eu sou o Guilherme! 😊
-Sou um dev em formação, estou em transição de carreira e buscando ingressar na área tech. Estudo programação <br>
-desde os meus 14 anos, e sou apaixonado por tecnologia desde sempre. Além de desenvolvedor, eu também sou artista <br>
-nas horas vagas e adoro conversar sobre todo tipo de arte.
+Sou um dev fullstack especialista em React, TypeScript, Node.js e Python. Possuo conhecimentos em bancos de dados SQL e bancos não-relacionais. Estou me aprimorando e aprendendo mais sobre Java e Golang. 
 
 📔 - ACADÊMICO<br>
    <ul><li><b>Desenvolvimento de Software Multiplataforma</b><br>
