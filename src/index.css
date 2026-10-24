@@ -1,0 +1,45 @@
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/space-grotesk";
+@import "tailwindcss";
+
+/* O tema escuro é ativado pela classe "dark" no <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Fontes e vermelho de destaque: troque aqui para mudar o site todo */
+@theme {
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", system-ui, sans-serif;
+
+  --color-brand-50: #fff1f2;
+  --color-brand-100: #ffe0e3;
+  --color-brand-200: #ffc6cc;
+  --color-brand-300: #ff9aa4;
+  --color-brand-400: #ff6070;
+  --color-brand-500: #f0283f;
+  --color-brand-600: #d3112c;
+  --color-brand-700: #b00d25;
+  --color-brand-800: #8f0f24;
+  --color-brand-900: #4c0610;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-white text-neutral-800 antialiased transition-colors duration-200
+      dark:bg-neutral-950 dark:text-neutral-200;
+  }
+  /* Tailwind 4 deixa botões com cursor padrão; restaura o "mãozinha" */
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-brand-500);
+    outline-offset: 2px;
+  }
+}
